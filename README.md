@@ -5,8 +5,8 @@
 
 In simple words it can be remembered as defining target along with dependencies in the 1st line and associated action in the 2nd line. Make file can have several such target and actions. 
 
-##  target: dependencies
-##	action 	
+#### target: dependencies
+####	action
 
 
 ##  Syntax : 
