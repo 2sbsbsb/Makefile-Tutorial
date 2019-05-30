@@ -20,6 +20,9 @@ Make file can have several such target and actions.
 
 2nd line is the real command to execute
 
+## Make file
+
+The Makefile for this project has 5 rules
 
 
 ### Rule 1 
@@ -71,5 +74,3 @@ Make file can have several such target and actions.
 
 #### clean: 
 ####	rm *.o output
-
-
