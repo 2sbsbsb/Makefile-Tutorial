@@ -3,15 +3,23 @@
 
 ## How to write make file 
 
-In simple words it can be remembered as defining target along with dependencies in the 1st line and associated action in the 2nd line. Make file can have several such target and actions. 
+In simple words it can be remembered as defining target along with dependencies in the 1st line and associated action in the 2nd line. 
 
-#### target: dependencies
-####	action
+#### 1st line - target: dependencies
+####	2 nd line (Tab) - action
+
+Make file can have several such target and actions. 
 
 
 ##  Syntax : 
 ### [name of rule] : [list of other rules, separated by spaces] [list of source files, separated by spaces]
 ### 		[TAB]command to execute in the event that the rule is violated.
+
+
+1st line starts with the name of the rule followed by optional (list of othe rules) or list of source files. 
+
+2nd line is the real command to execute
+
 
 
 ### Rule 1 
@@ -62,4 +70,6 @@ In simple words it can be remembered as defining target along with dependencies 
 
 
 #### clean: 
-####	rm *.o output 
+####	rm *.o output
+
+
